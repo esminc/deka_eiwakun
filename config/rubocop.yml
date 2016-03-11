@@ -1,0 +1,39 @@
+AllCops:
+  Exclude:
+    - 'db/schema.rb'
+    - 'vendor/bundle/**/*'
+
+# Missing top-level class documentation comment.
+Style/Documentation:
+  Enabled: false
+
+# Use only ascii symbols in comments.
+Style/AsciiComments:
+  Enabled: false
+
+# Style/SpaceInsideBlockBraces: Space between { and | missing.
+Style/SpaceInsideBlockBraces:
+  SpaceBeforeBlockParameters: false
+
+# Use the lambda method for multi-line lambdas.
+Style/Lambda:
+  Enabled: false
+
+Style/SpaceInsideHashLiteralBraces:
+  EnforcedStyle: no_space
+
+Metrics/ClassLength:
+  Exclude:
+    - 'db/migrate/**/*'
+
+Metrics/MethodLength:
+  Exclude:
+    - 'db/migrate/**/*'
+
+Metrics/AbcSize:
+  Exclude:
+    - 'db/migrate/**/*'
+
+# Unnecessary spacing detected
+Style/ExtraSpacing:
+  Enabled: false
