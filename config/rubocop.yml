@@ -11,6 +11,9 @@ Style/Documentation:
 Style/AsciiComments:
   Enabled: false
 
+Style/BlockDelimiters:
+  EnforcedStyle: braces_for_chaining
+
 # Style/SpaceInsideBlockBraces: Space between { and | missing.
 Style/SpaceInsideBlockBraces:
   SpaceBeforeBlockParameters: false
