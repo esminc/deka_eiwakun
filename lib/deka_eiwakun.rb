@@ -1,4 +1,4 @@
-require "deka_eiwakun/version"
+require 'deka_eiwakun/version'
 
 module DekaEiwakun
   # Your code goes here...
