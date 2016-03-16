@@ -30,7 +30,7 @@ Metrics/ClassLength:
     - 'db/migrate/**/*'
 
 Metrics/LineLength:
-  Enabled: false
+  Max: 125
 
 Metrics/MethodLength:
   Exclude:
