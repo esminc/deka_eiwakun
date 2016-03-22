@@ -2,6 +2,12 @@ AllCops:
   Exclude:
     - 'db/schema.rb'
     - 'vendor/bundle/**/*'
+    - 'bin/setup'
+    - 'bin/bundle'
+    - 'bin/rails'
+    - 'bin/rake'
+    - 'bin/setup'
+    - 'bin/update'
 
 # Missing top-level class documentation comment.
 Style/Documentation:
