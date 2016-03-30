@@ -28,6 +28,9 @@ Style/Lambda:
 Style/SpaceInsideHashLiteralBraces:
   EnforcedStyle: no_space
 
+Style/BlockDelimiters:
+  EnforcedStyle: semantic
+
 Metrics/ClassLength:
   Exclude:
     - 'db/migrate/**/*'
