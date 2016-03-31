@@ -31,6 +31,9 @@ Style/SpaceInsideHashLiteralBraces:
 Style/BlockDelimiters:
   EnforcedStyle: semantic
 
+  FunctionalMethods:
+    - map
+
 Metrics/ClassLength:
   Exclude:
     - 'db/migrate/**/*'
