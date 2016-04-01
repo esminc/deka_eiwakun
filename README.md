@@ -1,5 +1,7 @@
 # DekaEiwakun
 
+[![Circle CI](https://circleci.com/gh/esminc/deka_eiwakun.svg?style=svg)](https://circleci.com/gh/esminc/deka_eiwakun)
+
 <div align='center'>
   <img alt='eiwakun_deka' src='https://idobata.s3.amazonaws.com/uploads/attachment/image/406844/d49d3bc5-0ea0-473f-a2da-23ccf3849d5e/deka_eiwakun.png' />
   <img alt='eiwakun_deka' src='https://idobata.s3.amazonaws.com/uploads/attachment/image/406844/d49d3bc5-0ea0-473f-a2da-23ccf3849d5e/deka_eiwakun.png' />
