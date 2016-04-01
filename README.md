@@ -1,6 +1,12 @@
 # DekaEiwakun
 
-![eiwakun_deka](https://cloud.githubusercontent.com/assets/43500/13699742/baeaba2a-e7bf-11e5-81df-217cc16eb4a9.png)
+[![Circle CI](https://circleci.com/gh/esminc/deka_eiwakun.svg?style=svg)](https://circleci.com/gh/esminc/deka_eiwakun)
+
+<div align='center'>
+  <img alt='eiwakun_deka' src='https://idobata.s3.amazonaws.com/uploads/attachment/image/406844/d49d3bc5-0ea0-473f-a2da-23ccf3849d5e/deka_eiwakun.png' />
+  <img alt='eiwakun_deka' src='https://idobata.s3.amazonaws.com/uploads/attachment/image/406844/d49d3bc5-0ea0-473f-a2da-23ccf3849d5e/deka_eiwakun.png' />
+  <img alt='eiwakun_deka' src='https://idobata.s3.amazonaws.com/uploads/attachment/image/406844/d49d3bc5-0ea0-473f-a2da-23ccf3849d5e/deka_eiwakun.png' />
+</div>
 
 
 DekaEiwakun is Ruby convention in esm.
