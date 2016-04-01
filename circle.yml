@@ -1,6 +1,7 @@
 dependencies:
   pre:
     - gem install bundler --pre
+    - gem update bundler
 
 machine:
   timezone:
