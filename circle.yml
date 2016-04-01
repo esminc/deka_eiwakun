@@ -1,9 +1,14 @@
+dependencies:
+  pre:
+    - gem install bundler --pre
+
 machine:
   timezone:
     Asia/Tokyo
   ruby:
     version:
       2.3.0
+
 test:
   override:
     - bundle exec rake rubocop
