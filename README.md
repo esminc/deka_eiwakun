@@ -10,7 +10,7 @@
 
 
 DekaEiwakun is Ruby convention in esm.
-Inspiered by [onkcop](https://github.com/onk/onkcop)
+Inspired by [onkcop](https://github.com/onk/onkcop)
 
 ## Usage
 
@@ -44,4 +44,3 @@ Bug reports and pull requests are welcome on GitHub at https://github.com/esminc
 ## License
 
 The gem is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
-
