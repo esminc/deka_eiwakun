@@ -2,6 +2,7 @@ dependencies:
   pre:
     - gem install bundler --pre
     - gem update bundler
+    - gem update rubocop
 
 machine:
   timezone:
