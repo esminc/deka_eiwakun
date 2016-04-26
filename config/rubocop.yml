@@ -26,6 +26,9 @@ Style/BlockDelimiters:
 
   FunctionalMethods:
     - map
+    - let
+    - let!
+    - subject
 
 Metrics/ClassLength:
   Exclude:
