@@ -13,6 +13,13 @@ end
   i
 }.join
 
+# RSpec で使うメソッド名
+subject { self }
+let(:a) { 1 }
+let!(:b) {
+  1 + 1
+}
+
 # ハッシュリテラル
 
 _ = {a: 1, b: 2}
