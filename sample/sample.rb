@@ -41,3 +41,13 @@ many_arg_method(
   4,
   5
 )
+
+# 条件無し case
+a = 1
+b = 2
+case
+when a == 1 then true
+when b == 2 then false
+else
+  raise
+end
