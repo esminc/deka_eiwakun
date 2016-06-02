@@ -47,3 +47,6 @@ Metrics/AbcSize:
 
 Style/ExtraSpacing:
   Enabled: false
+
+Style/EmptyCaseCondition:
+  Enabled: false
