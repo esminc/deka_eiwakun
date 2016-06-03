@@ -44,6 +44,9 @@ Metrics/ClassLength:
   Exclude:
     - 'db/migrate/**/*'
 
+Style/ClassAndModuleChildren:
+  Enabled: false
+
 Metrics/LineLength:
   Max: 125
 
