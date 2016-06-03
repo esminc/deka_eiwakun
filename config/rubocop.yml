@@ -6,21 +6,6 @@ AllCops:
     - 'db/schema.rb'
     - 'vendor/bundle/**/*'
 
-Metrics/AbcSize:
-  Exclude:
-    - 'db/migrate/**/*'
-
-Metrics/ClassLength:
-  Exclude:
-    - 'db/migrate/**/*'
-
-Metrics/LineLength:
-  Max: 125
-
-Metrics/MethodLength:
-  Exclude:
-    - 'db/migrate/**/*'
-
 Style/AsciiComments:
   Enabled: false
 
@@ -50,3 +35,18 @@ Style/SpaceInsideBlockBraces:
 
 Style/SpaceInsideHashLiteralBraces:
   EnforcedStyle: no_space
+
+Metrics/AbcSize:
+  Exclude:
+    - 'db/migrate/**/*'
+
+Metrics/ClassLength:
+  Exclude:
+    - 'db/migrate/**/*'
+
+Metrics/LineLength:
+  Max: 125
+
+Metrics/MethodLength:
+  Exclude:
+    - 'db/migrate/**/*'
