@@ -1,34 +1,14 @@
 AllCops:
   Exclude:
-    - 'db/schema.rb'
-    - 'vendor/bundle/**/*'
     - 'bin/bundle'
     - 'bin/rails'
     - 'bin/rake'
+    - 'db/schema.rb'
+    - 'vendor/bundle/**/*'
 
-Style/Documentation:
-  Enabled: false
-
-Style/AsciiComments:
-  Enabled: false
-
-Style/SpaceInsideBlockBraces:
-  SpaceBeforeBlockParameters: false
-
-Style/Lambda:
-  Enabled: false
-
-Style/SpaceInsideHashLiteralBraces:
-  EnforcedStyle: no_space
-
-Style/BlockDelimiters:
-  EnforcedStyle: semantic
-
-  FunctionalMethods:
-    - map
-    - let
-    - let!
-    - subject
+Metrics/AbcSize:
+  Exclude:
+    - 'db/migrate/**/*'
 
 Metrics/ClassLength:
   Exclude:
@@ -41,12 +21,32 @@ Metrics/MethodLength:
   Exclude:
     - 'db/migrate/**/*'
 
-Metrics/AbcSize:
-  Exclude:
-    - 'db/migrate/**/*'
+Style/AsciiComments:
+  Enabled: false
 
-Style/ExtraSpacing:
+Style/BlockDelimiters:
+  EnforcedStyle: semantic
+
+  FunctionalMethods:
+    - let
+    - let!
+    - map
+    - subject
+
+Style/Documentation:
   Enabled: false
 
 Style/EmptyCaseCondition:
   Enabled: false
+
+Style/ExtraSpacing:
+  Enabled: false
+
+Style/Lambda:
+  Enabled: false
+
+Style/SpaceInsideBlockBraces:
+  SpaceBeforeBlockParameters: false
+
+Style/SpaceInsideHashLiteralBraces:
+  EnforcedStyle: no_space
