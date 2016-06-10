@@ -45,7 +45,8 @@ Metrics/ClassLength:
     - 'db/migrate/**/*'
 
 Style/ClassAndModuleChildren:
-  Enabled: false
+  Exclude:
+    - 'app/controllers/**/*' # `class Api::V1::UsersController...` のように書きたいことがあるし、他の理由でネストすることはあまりないのではないか。
 
 Metrics/LineLength:
   Max: 125
