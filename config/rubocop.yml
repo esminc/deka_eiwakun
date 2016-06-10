@@ -18,6 +18,10 @@ Style/BlockDelimiters:
     - map
     - subject
 
+Style/ClassAndModuleChildren:
+  Exclude:
+    - 'app/controllers/**/*' # `class Api::V1::UsersController...` のように書きたいことがあるし、他の理由でネストすることはあまりないのではないか。
+
 Style/Documentation:
   Enabled: false
 
@@ -43,10 +47,6 @@ Metrics/AbcSize:
 Metrics/ClassLength:
   Exclude:
     - 'db/migrate/**/*'
-
-Style/ClassAndModuleChildren:
-  Exclude:
-    - 'app/controllers/**/*' # `class Api::V1::UsersController...` のように書きたいことがあるし、他の理由でネストすることはあまりないのではないか。
 
 Metrics/LineLength:
   Max: 125
