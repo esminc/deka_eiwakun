@@ -7,7 +7,7 @@ machine:
     Asia/Tokyo
   ruby:
     version:
-      2.3.0
+      2.3.3
 
 test:
   override:
