@@ -40,6 +40,10 @@ Style/SpaceInsideBlockBraces:
 Style/SpaceInsideHashLiteralBraces:
   EnforcedStyle: no_space
 
+Style/VariableName:
+  EnforcedStyle: snake_case
+  Enabled: true
+
 Metrics/AbcSize:
   Exclude:
     - 'db/migrate/**/*'
