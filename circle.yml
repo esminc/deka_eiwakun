@@ -1,5 +1,6 @@
 dependencies:
   pre:
+    - gem update --system
     - gem update bundler
 
 machine:
