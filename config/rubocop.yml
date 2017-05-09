@@ -5,6 +5,7 @@ AllCops:
     - 'bin/rake'
     - 'db/schema.rb'
     - 'vendor/bundle/**/*'
+    - 'node_modules/**/*'
 
 Style/AsciiComments:
   Enabled: false
