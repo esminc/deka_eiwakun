@@ -45,6 +45,9 @@ Style/VariableName:
   EnforcedStyle: snake_case
   Enabled: true
 
+Style/FrozenStringLiteralComment:
+  Enabled: false
+
 Metrics/AbcSize:
   Max: 35
   Exclude:
