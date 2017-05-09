@@ -16,6 +16,8 @@ Style/BlockDelimiters:
   FunctionalMethods:
     - let
     - let!
+    - given
+    - given!
     - map
     - subject
 
