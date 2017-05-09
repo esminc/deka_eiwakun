@@ -46,6 +46,7 @@ Style/VariableName:
   Enabled: true
 
 Metrics/AbcSize:
+  Max: 35
   Exclude:
     - 'db/migrate/**/*'
 
