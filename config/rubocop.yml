@@ -15,7 +15,7 @@ Layout/SpaceInsideBlockBraces:
 Layout/SpaceInsideHashLiteralBraces:
   EnforcedStyle: no_space
 
-Layout/VariableName:
+Naming/VariableName:
   EnforcedStyle: snake_case
   Enabled: true
 
