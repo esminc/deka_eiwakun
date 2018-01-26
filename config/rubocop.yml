@@ -34,6 +34,15 @@ Style/ExtraSpacing:
 Style/Lambda:
   Enabled: false
 
+Style/PercentLiteralDelimiters:
+  PreferredDelimiters:
+    default: '()'
+    '%i': '()'
+    '%I': '()'
+    '%r': '||'
+    '%w': '()'
+    '%W': '()'
+
 Style/SpaceInsideBlockBraces:
   SpaceBeforeBlockParameters: false
 
