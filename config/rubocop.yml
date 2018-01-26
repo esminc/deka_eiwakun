@@ -22,6 +22,9 @@ Naming/VariableName:
 Style/AsciiComments:
   Enabled: false
 
+Style/AsciiComments:
+  Enabled: false
+
 Style/BlockDelimiters:
   EnforcedStyle: semantic
 
@@ -39,6 +42,9 @@ Style/Documentation:
   Enabled: false
 
 Style/EmptyCaseCondition:
+  Enabled: false
+
+Style/FormatStringToken:
   Enabled: false
 
 Style/Lambda:
