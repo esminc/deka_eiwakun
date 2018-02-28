@@ -6,6 +6,22 @@ AllCops:
     - 'db/schema.rb'
     - 'vendor/bundle/**/*'
 
+Layout/ExtraSpacing:
+  Enabled: false
+
+Layout/SpaceInsideBlockBraces:
+  SpaceBeforeBlockParameters: false
+
+Layout/SpaceInsideHashLiteralBraces:
+  EnforcedStyle: no_space
+
+Naming/VariableName:
+  EnforcedStyle: snake_case
+  Enabled: true
+
+Style/AsciiComments:
+  Enabled: false
+
 Style/AsciiComments:
   Enabled: false
 
@@ -28,21 +44,20 @@ Style/Documentation:
 Style/EmptyCaseCondition:
   Enabled: false
 
-Style/ExtraSpacing:
+Style/FormatStringToken:
   Enabled: false
 
 Style/Lambda:
   Enabled: false
 
-Style/SpaceInsideBlockBraces:
-  SpaceBeforeBlockParameters: false
-
-Style/SpaceInsideHashLiteralBraces:
-  EnforcedStyle: no_space
-
-Style/VariableName:
-  EnforcedStyle: snake_case
-  Enabled: true
+Style/PercentLiteralDelimiters:
+  PreferredDelimiters:
+    default: '()'
+    '%i': '()'
+    '%I': '()'
+    '%r': '||'
+    '%w': '()'
+    '%W': '()'
 
 Metrics/AbcSize:
   Exclude:
