@@ -15,6 +15,12 @@ Layout/SpaceInsideBlockBraces:
 Layout/SpaceInsideHashLiteralBraces:
   EnforcedStyle: no_space
 
+Naming/UncommunicativeBlockParamName:
+  Enabled: false
+
+Naming/UncommunicativeMethodParamName:
+  Enabled: false
+
 Naming/VariableName:
   EnforcedStyle: snake_case
   Enabled: true
