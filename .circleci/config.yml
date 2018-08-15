@@ -1,0 +1,23 @@
+version: 2
+jobs:
+  build:
+    working_directory: ~/esminc/deka_eiwakun
+    parallelism: 1
+    shell: /bin/bash --login
+    environment:
+      CIRCLE_ARTIFACTS: /tmp/circleci-artifacts
+      CIRCLE_TEST_REPORTS: /tmp/circleci-test-results
+      LANG: en_US.UTF-8
+    docker:
+    - image: circleci/ruby:2.5.1
+    steps:
+    - checkout
+    - run: mkdir -p $CIRCLE_ARTIFACTS $CIRCLE_TEST_REPORTS
+    - run: gem update --system
+    - run: gem update bundler
+    - run: env | sort
+    - run: 'bundle check --path=vendor/bundle || bundle install --path=vendor/bundle
+        --jobs=4 --retry=3 '
+    - run: bundle exec ruby -e "puts RUBY_VERSION"
+    - run: echo $RUBY_VERSION > .ruby-version
+    - run: bundle exec rake rubocop
