@@ -15,6 +15,9 @@ Layout/SpaceInsideBlockBraces:
 Layout/SpaceInsideHashLiteralBraces:
   EnforcedStyle: no_space
 
+Lint/UselessAccessModifier:
+  Enabled: false
+
 Naming/UncommunicativeBlockParamName:
   Enabled: false
 
