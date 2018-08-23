@@ -28,6 +28,9 @@ Naming/VariableName:
   EnforcedStyle: snake_case
   Enabled: true
 
+Style/AccessModifierDeclarations:
+  Enabled: false
+
 Style/AsciiComments:
   Enabled: false
 
