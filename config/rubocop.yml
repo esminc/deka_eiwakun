@@ -15,6 +15,9 @@ Layout/SpaceInsideBlockBraces:
 Layout/SpaceInsideHashLiteralBraces:
   EnforcedStyle: no_space
 
+Lint/UselessAccessModifier:
+  Enabled: false
+
 Naming/UncommunicativeBlockParamName:
   Enabled: false
 
@@ -24,6 +27,9 @@ Naming/UncommunicativeMethodParamName:
 Naming/VariableName:
   EnforcedStyle: snake_case
   Enabled: true
+
+Style/AccessModifierDeclarations:
+  Enabled: false
 
 Style/AsciiComments:
   Enabled: false
