@@ -85,3 +85,20 @@ Metrics/LineLength:
 Metrics/MethodLength:
   Exclude:
     - 'db/migrate/**/*'
+
+Style/EmptyLinesAroundClassBody:
+  EnforcedStyle: no_empty_lines
+  Enabled: true
+
+Style/MethodDefParentheses:
+  EnforcedStyle: require_parentheses
+  Enabled: true
+
+Style/SpaceAroundBlockParameters:
+  EnforcedStyleInsidePipes: no_space
+  Enabled: true
+
+Style/TrailingBlankLines:
+  EnforcedStyle: final_newline
+  Enabled: true
+
